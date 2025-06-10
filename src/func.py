@@ -1,7 +1,7 @@
 import pandas as pd
 
 def get_data():
-    df = pd.read_excel("C:/Users/bbarrineau/OneDrive - University of Florida/TabulateQR Dashboard/2025 U3-Grading Completed.xlsx")
+    df = pd.read_excel("PATH_TO_FILE")
     return df
 
 def get_top_five_yielders(df, checks = []):
